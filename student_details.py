@@ -46,12 +46,23 @@ Make sure you fill in the right details.
 
 def my_details():
   """Return a dictionary with your details in the format as specified in the above instructions"""
-  pass
-
+dict=dict(
+{
+'name': {'first-name':'CHARAN DEEP', 'last-name':'KOTAKALA'},
+'roll-number':'VU21EECE0100427',
+'branch':'ECE',
+'specialization':'CORE',
+'email-id':'ckotakal@gitam.in',
+'moodle-id':'vu21eece0100427',
+'github-id':'VU21EECE0100427',
+'replit-id':'@Charan-Kotakala',
+'semester':'2',
+'year':'1'
+}
+)
 
 # now call your function
-dt = my_details()
-print(dt)
+print(dict)
 
 
 # Once you complete, no need to submit.
